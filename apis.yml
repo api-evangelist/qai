@@ -1,4 +1,16 @@
 aid: qai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qai.png
 name: Q.ai *
 description: 'Q.ai * is a company surfaced as a portfolio company of gv and added to the API Evangelist
   network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
@@ -11,7 +23,13 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: 'Probed q.ai (Cloudflare-parked, 404 on apex + all /.well-known); developer.q.ai/api.q.ai/docs.q.ai/app.q.ai/www.q.ai do not resolve. Company appears defunct (former Forbes AI-investing app). No API surface, docs, packages, or well-known documents to enrich.'
 tags:
 - Company
 - Ai
