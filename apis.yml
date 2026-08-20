@@ -32,6 +32,9 @@ x-enrichment:
   notes: 'Probed q.ai (Cloudflare-parked, 404 on apex + all /.well-known); developer.q.ai/api.q.ai/docs.q.ai/app.q.ai/www.q.ai do not resolve. Company appears defunct (former Forbes AI-investing app). No API surface, docs, packages, or well-known documents to enrich.'
 tags:
 - Company
+- Artificial Intelligence
+tags_raw:
+- Company
 - Ai
 apis: []
 maintainers:
